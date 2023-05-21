@@ -6,6 +6,8 @@ const person = {
 };
 
 let team = players;
+
+// spread operator (...) :  allows us to quickly copy  array or object
 let team1 = [...players];
 let cap1 = {...person};
 
